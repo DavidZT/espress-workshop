@@ -4,17 +4,30 @@
   "description": "An API REST using espress.js",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidZT/espress-workshop.git"
   },
   "keywords": [
     "api",
     "rest",
     "express",
-    "node.js"
+    "node.js",
+    "mysql"
   ],
   "author": "David LL",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidZT/espress-workshop/issues"
+  },
+  "homepage": "https://github.com/DavidZT/espress-workshop#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
   }
 }
